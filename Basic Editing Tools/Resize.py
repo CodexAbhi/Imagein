@@ -1,4 +1,4 @@
-import Image from PIL
+from PIL import Image
 
 def resize(image, width, height, maintain_aspect_ratio=True):
     with Image.open(image) as img:
